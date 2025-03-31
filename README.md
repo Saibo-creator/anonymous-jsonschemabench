@@ -1,7 +1,7 @@
 # MaskBench
 
 <p align="center">
-    <img src="plots/hero.png" width="700"/>
+    <img src="maskbench/plots/hero.png" width="700"/>
 </p>
 
 The primary focus of the top-level repository is end-to-end performance and accuracy of JSON Schema-constrained generation.
@@ -26,11 +26,11 @@ By isolating mask computation, this benchmark assesses its standalone performanc
 ## Benchmark Results
 
 <p align="center">
-    <img src="plots/tbm.png" />
+    <img src="maskbench/plots/tbm.png" />
 </p>
 
 <p align="center">
-    <img src="plots/ttfm.png" />
+    <img src="maskbench/plots/ttfm.png" />
 </p>
 
 ## Engines Benchmarked
