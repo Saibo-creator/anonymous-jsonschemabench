@@ -1,8 +1,5 @@
 # JSONSchemaBench
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2501.10868-b31b1b)](https://arxiv.org/abs/2501.10868)
-[![Hugging Face](https://img.shields.io/badge/Dataset-Hugging%20Face-orange)](https://huggingface.co/datasets/epfl-dlab/JSONSchemaBench)
-
 
 Reliably generating structured outputs is a key capability for modern LLM applications. Despite its growing adoption, a systematic evaluation of structured output generation is still lacking. With JSON Schema emerging as the standard format for structured data, we introduce JSONSchemaBench a benchmark of around 10,000 real-world JSON schemas that capture a wide range of constraints and complexities.
 JSONSchemaBench helps to measure **efficiency** and **coverage** of a given structured output engine. 
@@ -12,10 +9,6 @@ JSONSchemaBench helps to measure **efficiency** and **coverage** of a given stru
        <br/>
     <em>Figure 1: Comparison across various constrained-decoding frameworks by efficiency (speed of output generation), coverage (support for JSON Schema features), and quality (effects on underlying task accuracy).</em>
 </p>
-
-## JsonSchemaBench
-
-Visit [epfl-dlab/jsonschemabench](https://github.com/epfl-dlab/jsonschemabench) for the codebase of JSONSchemaBench.
 
 ## MaskBench
 
@@ -125,16 +118,3 @@ We provide a feature checklist for each Structured Output Generation Engine base
 
 </details>
 
-## Citation
-
-```bibtex
-@misc{geng2025jsonschemabench,
-      title={Generating Structured Outputs from Language Models: Benchmark and Studies}, 
-      author={Saibo Geng and Hudson Cooper and Michał Moskal and Samuel Jenkins and Julian Berman and Nathan Ranchin and Robert West and Eric Horvitz and Harsha Nori},
-      year={2025},
-      eprint={2501.10868},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2501.10868}, 
-}
-```
